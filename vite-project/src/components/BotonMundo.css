@@ -1,0 +1,45 @@
+/* BotonMundo.css */
+
+.boton-mundo {
+    padding: 10px 15px; /* Espaciado alrededor del texto del botón */
+    background-color: #007bff; /* Fondo del botón */
+    color: white; /* Color del texto dentro del botón */
+    font-size: 1rem; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+    display: inline-flex; /* Alineación en línea */
+    align-items: center; /* Alineamos el contenido del botón verticalmente */
+  }
+  
+  .boton-mundo:hover {
+    background-color: #0056b3; /* Color de fondo cuando se pasa el mouse por encima */
+  }
+  
+  /* Estilo del menú desplegable de idiomas */
+  .idiomas-lista {
+    position: absolute;
+    top: 40px; /* Se coloca justo debajo del botón */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; /* Ancho del menú */
+    display: none; /* Inicialmente oculto */
+    flex-direction: column; /* Los items estarán en columna */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boton-mundo.active + .idiomas-lista {
+    display: flex; /* Muestra el menú cuando el botón esté activo */
+  }
+  
+  .idioma-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .idioma-item:hover {
+    background-color: #f1f1f1;
+  }
+  

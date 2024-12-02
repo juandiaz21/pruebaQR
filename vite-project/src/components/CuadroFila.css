@@ -1,0 +1,62 @@
+/* Estilo base para la fila que contiene los dos rectángulos */
+.cuadro-fila {
+  display: flex; /* Usa Flexbox para organizar los rectángulos en fila */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  margin-bottom: 20px; /* Añadimos un poco más de espacio entre las filas */
+  justify-content: center; /* Asegura que los rectángulos estén centrados */
+}
+
+/* Estilo para los rectángulos */
+.cuadro {
+  display: flex;
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center; /* Centra el texto horizontalmente */
+  height: 100px; /* Fijamos una altura común */
+  color: black; /* El texto dentro de los cuadros será negro */
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid black; /* Agregamos un borde negro de 1px */
+}
+
+/* Rectángulo izquierdo: más pequeño en ancho */
+.cuadro-left {
+  flex: 0 0 20%; /* Toma el 20% del ancho disponible */
+  margin-right: 10px; /* Espacio entre los rectángulos */
+}
+
+/* Rectángulo derecho: más grande en ancho */
+.cuadro-right {
+  flex: 0 0 55%; /* Toma el 55% del ancho disponible */
+  margin-left: 10px; /* Espacio entre los rectángulos */
+}
+
+/* Añadimos estilo para el contenedor principal de las filas (centrar todo) */
+.reminders {
+  display: flex;
+  flex-direction: column; /* Asegura que las filas estén apiladas */
+  align-items: center; /* Centra todas las filas */
+  justify-content: center; /* Centra las filas de manera vertical */
+  padding: 20px; /* Añade espacio en los laterales */
+  margin-top: 50px; /* Asegura un margen desde el texto encima de los cuadros */
+  width: 100%; /* Asegura que ocupe el 100% del ancho */
+}
+
+
+/* Media Query para pantallas con ancho menor a 600px */
+@media (max-width: 600px) {
+  /* Cambiar la dirección de la fila a columna (apilados verticalmente) */
+  .cuadro-fila {
+    flex-direction: column; /* Apilamos los rectángulos uno encima del otro */
+    align-items: center; /* Asegura que los rectángulos estén centrados */
+  }
+
+  /* Ajustamos el tamaño de los rectángulos */
+  .cuadro-left {
+    flex: 0 0 80%; /* Toma más espacio cuando están apilados */
+    margin-bottom: 10px; /* Añadimos espacio entre los rectángulos */
+  }
+
+  .cuadro-right {
+    flex: 0 0 80%; /* Toma el mismo tamaño que el de la izquierda */
+  }
+}

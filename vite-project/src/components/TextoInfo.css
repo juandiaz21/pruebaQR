@@ -1,0 +1,18 @@
+/* TextoEncimaCuadros.css */
+
+/* Estilo para el texto que está encima de los cuadros */
+.texto-encima-cuadros {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    margin-top: 180px; /* Separación desde el header o elementos superiores */
+  }
+  
+  .texto-encima-cuadros p {
+    font-size: 1.2rem; /* Tamaño de texto */
+    color: #333; /* Color del texto */
+    text-align: center; /* Asegura que el texto esté centrado */
+    width: 60%; /* El mismo ancho que los cuadros */
+  }
+  

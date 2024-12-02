@@ -1,0 +1,84 @@
+/* Header.css */
+
+/* Estilo base para el header */
+.header {
+  width: 100%;
+  height: 20vh; /* Mantener la altura del header en 20vh */
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: center; /* Centra horizontalmente */
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px 20px; /* Ajustamos el padding para un poco menos de espacio interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+/* Imagen de los colores centrada arriba */
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-logo img {
+  max-height: 20px; /* Reducimos la altura de la imagen de colores */
+  width: auto;
+}
+
+/* Contenedor principal para el texto */
+.header-content {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  flex-direction: column;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  margin-top: 15px; /* Reducimos el margen superior */
+}
+
+/* Título principal */
+.header-title {
+  font-size: 1.8rem; /* Reducimos el tamaño del texto un poco */
+  font-weight: normal;
+  color: #333;
+  margin: 15px 0; /* Menos espacio entre las imágenes y el texto */
+  text-align: center;
+}
+
+/* Resaltar "No Discriminación" */
+.highlight {
+  font-weight: bold;
+  color: black;
+}
+
+/* Logo de Barcelona alineado a la derecha */
+.header-right-logo {
+  position: absolute; /* Ubica el logo a la derecha */
+  top: 10px; /* Ajustamos un poco más hacia arriba */
+  right: 20px; /* Un margen a la derecha */
+}
+
+.header-right-logo img {
+  max-height: 50px; /* Aumentamos la altura del logo a 50px */
+  margin-top: 20%;
+  width: auto;
+}
+
+/* Media Query para pantallas con ancho menor a 600px (o cualquier valor que desees) */
+@media (max-width: 600px) {
+  /* Ocultar texto y logo de Barcelona en pantallas más pequeñas */
+  .header-content,
+  .header-right-logo {
+    display: none;
+  }
+
+  /* Asegurar que solo la línea de colores (logo) se mantenga visible */
+  .header-logo {
+    display: flex;
+  }
+}
