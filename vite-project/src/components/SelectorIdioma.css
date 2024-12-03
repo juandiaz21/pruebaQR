@@ -1,0 +1,54 @@
+/* Contenedor del selector */
+.language-selector-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  gap: 10px;
+  font-family: 'Arial', sans-serif;
+  padding: 10px; /* Espaciado interno opcional */
+  margin-top: 180px;
+}
+
+/* Etiqueta del selector */
+.language-selector-label {
+  font-size: 1rem;
+  color: #4a235a; /* Morado oscuro */
+  font-weight: 600;
+}
+
+/* Estilo del select */
+.language-selector {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 2px solid #8e44ad; /* Bordes morados */
+  border-radius: 8px;
+  background-color: #f9f1f9; /* Fondo morado claro */
+  color: #4a235a; /* Texto morado oscuro */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(142, 68, 173, 0.2); /* Sombra ligera en tono morado */
+}
+
+/* Estilo de focus en el select */
+.language-selector:focus {
+  border-color: #6c3483; /* Bordes más oscuros en focus */
+  box-shadow: 0 0 5px rgba(108, 52, 131, 0.7); /* Efecto morado brillante */
+}
+
+/* Efecto hover sobre el select */
+.language-selector:hover {
+  border-color: #6c3483; /* Morado oscuro */
+  background-color: #f2e1f7; /* Fondo más claro al hacer hover */
+}
+
+/* Opciones del select */
+.language-selector option {
+  padding: 10px;
+  color: #4a235a; /* Texto morado oscuro */
+}
+
+/* Animación de cambio de color de fondo cuando se pasa el mouse sobre una opción */
+.language-selector option:hover {
+  background-color: #6c3483; /* Fondo claro al pasar el mouse */
+}

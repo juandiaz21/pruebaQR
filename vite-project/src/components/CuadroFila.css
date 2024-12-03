@@ -37,7 +37,7 @@
   align-items: center; /* Centra todas las filas */
   justify-content: center; /* Centra las filas de manera vertical */
   padding: 20px; /* Añade espacio en los laterales */
-  margin-top: 50px; /* Asegura un margen desde el texto encima de los cuadros */
+  margin-top: 10px; /* Asegura un margen desde el texto encima de los cuadros */
   width: 100%; /* Asegura que ocupe el 100% del ancho */
 }
 

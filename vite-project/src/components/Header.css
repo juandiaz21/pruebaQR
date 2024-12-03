@@ -27,7 +27,8 @@
 }
 
 .header-logo img {
-  max-height: 20px; /* Reducimos la altura de la imagen de colores */
+  max-height: 80%; /* Reducimos la altura de la imagen de colores */
+  height: 60%;
   width: auto;
 }
 
@@ -60,7 +61,7 @@
 .header-right-logo {
   position: absolute; /* Ubica el logo a la derecha */
   top: 10px; /* Ajustamos un poco más hacia arriba */
-  right: 20px; /* Un margen a la derecha */
+  right: 80px; /* Un margen a la derecha */
 }
 
 .header-right-logo img {
@@ -70,7 +71,7 @@
 }
 
 /* Media Query para pantallas con ancho menor a 600px (o cualquier valor que desees) */
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   /* Ocultar texto y logo de Barcelona en pantallas más pequeñas */
   .header-content,
   .header-right-logo {
@@ -80,5 +81,18 @@
   /* Asegurar que solo la línea de colores (logo) se mantenga visible */
   .header-logo {
     display: flex;
+    height: 100%;
+  }
+  @media (max-height: 850px) {
+    /* Ocultar texto y logo de Barcelona en pantallas más pequeñas */
+    .header-content{
+      display: none;
+    }
+  
+    /* Asegurar que solo la línea de colores (logo) se mantenga visible */
+    .header-logo {
+      display: flex;
+      height: 100%;
+    }
   }
 }

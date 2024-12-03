@@ -1,28 +1,30 @@
-// App.jsx
 import React from 'react';
-import BotonMundo from './components/BotonMundo';
+import { I18nextProvider } from 'react-i18next';
 import CuadroFila from './components/CuadroFila';
 import Header from './components/Header';
+import SelectorIdioma from './components/SelectorIdioma';
 import TextoInfo from './components/TextoInfo'; // Asegúrate de importar TextoInfo correctamente
+import i18n from './components/i18n';
+
 
 function App() {
   return (
-    <div className="App">
+    <I18nextProvider i18n={i18n}>
+      <div className="App">
       <Header />
-      
-      {/* Contenedor para el texto y el botón, alineados horizontalmente */}
-      <div className="texto-boton-container">
-        <TextoInfo texto="Este es el texto encima de los cuadros" />
-        <BotonMundo />
+        <div className="texto-boton-container">
+          <SelectorIdioma />
+          <TextoInfo texto="Este es el texto encima de los cuadros" />
+        </div>
+        
+        {/* CuadroFila para los cuadros */}
+        <div className="reminders">
+          <CuadroFila color="#9b59b6" texto_1="texto1_1" texto_2="texto1_2"/>
+          <CuadroFila color="#28a745" texto_1="texto2_1" texto_2="texto2_2"/>
+          <CuadroFila color="#f1c40f" texto_1="texto3_1" texto_2="texto3_2"/>
+        </div>
       </div>
-      
-      {/* CuadroFila para los cuadros */}
-      <div className="reminders">
-        <CuadroFila color="purple" />
-        <CuadroFila color="green" />
-        <CuadroFila color="yellow" />
-      </div>
-    </div>
+    </I18nextProvider>
   );
 }
 

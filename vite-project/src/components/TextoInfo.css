@@ -6,7 +6,7 @@
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
     width: 100%; /* Asegura que ocupe todo el ancho */
-    margin-top: 180px; /* Separación desde el header o elementos superiores */
+    margin-top: -60px; /* Separación desde el header o elementos superiores */
   }
   
   .texto-encima-cuadros p {
