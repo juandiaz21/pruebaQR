@@ -134,6 +134,72 @@ const resources = {
       texto3_2: "Предоставляет информацию о правах человека и правах граждан. Проводит обучение и мероприятия, направленные на повышение информированности с помощью нашего центра ресурсов по правам человека.",
     },
   },
+  be: {
+    translation: {
+      texto_principal: "অ-বৈষম্যের জন্য অফিস (ওএনডি) হল বার্সেলোনা শহর কাউন্সিলের পৌরসভার পরিষেবা যা, শহরের মানবাধিকারের প্রতিরক্ষা, সুরক্ষা এবং নিশ্চয়তার জন্য কাজ করে। ওএনডি অন্যান্য কারণগুলোর মধ্যে বয়স, লিঙ্গ পরিচয়, যৌন অভিযোজন, জাতি, ধর্ম, ভাষা, জাতীয়তা, স্বাস্থ্য, অক্ষমতা বা আর্থ- সামাজিক অবস্থার উপর ভিত্তি করে বৈষম্যের পরিস্থিতিতে কাজ করে।",
+      texto1_1: "আপনি যদি কোনও বৈষম্য বা ঘৃণার সম্মুখীন হয়ে থাকেন বা সম্মুখীন হোন , ওএনডি এর মধ্যে:",
+      texto1_2: "আমরা আপনার আইনি উপদেশ, মনোসামাজিক দৃষ্টি আকর্ষণ এবং শিক্ষাগত কাজে সহযোগিতা করি।. আমরা দ্বন্দ-বিবাদ ব্যবস্থাপনার অংশ হিসাবে মধ্যস্থতা, বিভিন্ন পক্ষের মধ্যে মধ্যস্থতা এবং মীমাংসা প্রদান করি। আমরা বৈষম্যের ক্ষেত্রে বৈধ ক্ষমতার বিকাশ ঘটাই।",
+      texto2_1: "যদি আপনি মানবাধিকারের প্রতিরক্ষার ক্ষেত্রে কাজ করেন, তবে ওএনডি এর মধ্যে:",
+      texto2_2: "আমরা কার্যক্রমগুলি পরিচালনার জন্য আপনাকে স্থান এবং সম্পদের সুবিধা দিই।. আমরা মানবাধিকার সম্পর্কিত মানুষ ও সংস্থাদের সহযোগিতা করি এবং সহায়তা করি।. আমরা প্রত্যেকের জন্য অধিকার নিশ্চিত করণের জন্য একটি কৌশল হিসাবে কৌশলগত মামলা ব্যবহার করি।",
+      texto3_1: "আপনি যদি বৈষম্য বিরুদ্ধে কাজ করতে চান, তবে ওএনডি এর মধ্যে:",
+      texto3_2: "আমরা আপনাকে মানবাধিকার ও নাগরিক অধিকার সম্পর্কে অবহিত করি। মানবাধিকারের উপর আমাদের রিসোর্স সেন্টারের মাধ্যমে আমরা প্রশিক্ষণ ও সচেতনতামূলক কর্মকান্ডের আয়োজন করি।",
+    },
+  },
+  eu: {
+    translation: {
+      texto_principal: "Diskriminazio Ezaren Bulegoa (OND) hirian giza eskubideak defendatu, babestu eta bermatzearen alde lan egiten duen Bartzelonako Udalaren Zerbitzua da. OND diskriminazio-arrazoi hauen aurrean aritzen da: adina, genero-identitatea, sexu-orientazioa, jatorria, erlijioa, hizkuntza, nazionalitatea, osasuna, desgaitasuna edo egoera sozioekonomikoa, besteak beste.",
+      texto1_1: "Diskriminazioren bat edo gorroto-delituren bat jasan izan baduzu, edo jasaten ari bazara, ONDn:",
+      texto1_2: "Laguntza ematen dizugu lege-aholkularitza, arreta psikosoziala eta heziketa-jarduera eskainiz. Bitartekaritza, bitartekotza eta adiskidetzea eskaintzen dizugu gatazkak kudeatzeko tresna modura. Zigortze-gaitasuna garatzen dugu diskriminazio kasuetan.",
+      texto2_1: "Giza eskubideak defendatzen aritzen bazara, ONDn:",
+      texto2_2: "Jarduerak burutzeko espazioak eta baliabideak eskaintzen dizkizugu. Giza eskubideen inguruko pertsona eta erakundeekin egiten dugu lan eta laguntza ematen diegu. Auzi-estrategia erabiltzen dugu eskubideak guztientzat bermatzeko tresna gisa.",
+      texto3_1: "Diskriminazioaren aurka egin nahi baduzu, ONDn:",
+      texto3_2: "Informazioa ematen dugu giza eskubideez eta herritarren eskubideez. Sentsibilizazio-prestakuntzak eta -ekintzak antolatzen ditugu giza eskubideei buruzko gure baliabide-gunearen bitartez.",
+    },
+  },
+  aranes: {
+    translation: {
+      texto_principal: "Er Ofici entara Non Discriminacion (OND) ei eth servici municipau der Ajuntament de Barcelona que trabalhe entara defensa, emparament e garantia des drets umans ena ciutat. Er OND actue en situacions de discriminacion per arrason d’edat, identitat de genre, orientacion sexuau, origina, religion, lengua, nacionalitat, salut, andicap e/o situacion socioeconomica, entre d’autes causes.",
+      texto1_1: "S’as patit o patisses bèra discriminacion o delicte d’òdi, en OND:",
+      texto1_2: "T’acompanham damb assessorament juridic, atencion psicosociau e accion educativa. T’aufrim mediacion, intermediacion e conciliacion coma estruments entara gestion de conflictes Desvolopam era capacitat sancionadora en casi de discriminacion.",
+      texto2_1: "S’agisses en encastre dera defensa des drets umans, en OND:",
+      texto2_2: "T’aufrim espacis e recorsi entà realizar activitats Collaboram e sostiem a persones e entitats restacades damb drets umans. Emplegam eth litigi estrategic coma estrument de garantia de drets entà toti",
+      texto3_1: "Se vòs actuar contra era discriminacion, en OND:",
+      texto3_2: "T’informam sus drets umans e drets des ciutadans. Organizam formacions e accions de sensibilizacion a trauès deth nòste Centre de Recorsi en drets umans",
+    },
+  },
+  wo: {
+    translation: {
+      texto_principal: "Kër guy Xeex Béddi (KXB) ab sarwiisu gox la bu nekk ci meeri Goxu Barsalon la buy liggéey ngir saytu, àar te garanti àqi doomu aadam ci gox bi. KXB dafay jefe cig tontu ci anami béddi ci li aju ci at, xàmmeekaayu goor wala jiggeen, jubluwaayu awra, diine, làkk, réew mi nga bokk, werguyaram, laago ak/wala anam péncoo wala koom-koom, ci biir yeneeni mbir.",
+      texto1_1: "Sudee da nga daj coona wala nga dajoon coona ci bépp béddi wala ñaawtéefu mbañeel, KXB:",
+      texto1_2: "Di nañ la guŋgee ak ay digley yoon, pàccu xél ak jëfu jàngale. Di nañ la jox ab waxtaan, waxtaan ci ay digante ak juboole niki ay jumtukaay ngir saytug ñàxtu. Noo ngi defar ab man-manu yaraate ci ay anami béddi.",
+      texto2_1: "Sudee da ngay jëfe ci biir ëttu àqi doomi aadama, KXB:",
+      texto2_2: "Di nañu la jagleel ay barab wala costéef ngir nga mën a amal say jëf. Danuy liggéey tekk ci di joxe ndimbal ay nit ak ay mbootaay yuy liggéey ci mbirum àqi doomi aadama. Danuy jëfandikoo ab até bu teggu ci yoon niki ab jumtukaay ngir fexe ba jox ñépp seen àq",
+      texto3_1: "Sudee da nga bëgg a xeex béddi, KXB:",
+      texto3_2: "Di nañ la jox ay xibaar ci àqi doomi aadama ak situwayee. Dina ñu nos ay njàngalem yeete ak ay jéegoo ci biir sunu Santaru Costéefi Àq",
+    },
+  },
+  ur: {
+    translation: {
+      texto_principal: "",
+      texto1_1: "",
+      texto1_2: "",
+      texto2_1: "",
+      texto2_2: "",
+      texto3_1: "",
+      texto3_2: "",
+    },
+  },
+  ar: {
+    translation: {
+      texto_principal: "",
+      texto1_1: "",
+      texto1_2: "",
+      texto2_1: "",
+      texto2_2: "",
+      texto3_1: "",
+      texto3_2: "",
+    },
+  },
 };
 
 i18n.use(initReactI18next).init({

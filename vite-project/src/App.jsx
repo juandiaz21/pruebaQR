@@ -16,8 +16,6 @@ function App() {
           <SelectorIdioma />
           <TextoInfo texto="Este es el texto encima de los cuadros" />
         </div>
-        
-        {/* CuadroFila para los cuadros */}
         <div className="reminders">
           <CuadroFila color="#9b59b6" texto_1="texto1_1" texto_2="texto1_2"/>
           <CuadroFila color="#28a745" texto_1="texto2_1" texto_2="texto2_2"/>

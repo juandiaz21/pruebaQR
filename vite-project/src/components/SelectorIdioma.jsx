@@ -24,12 +24,18 @@ const SelectorIdioma = () => {
         <option value="ga">Galego</option>
         <option value="fr">Français</option>
         <option value="it">Italiano</option>
+        <option value="ar">Àrab</option>
         <option value="xi">中国人</option>
         <option value="hi">हिंदी</option>
         <option value="roes">Romanès</option>
         <option value="romi">Romaní</option>
         <option value="ta">Tagal</option>
         <option value="ru">Ruso</option>
+        <option value="be">Bengali</option>
+        <option value="eu">Euskera</option>
+        <option value="aranes">Aranès</option>
+        <option value="wo">Wòlof</option>
+        <option value="ur">Urdú</option>
       </select>
     </div>
   );
