@@ -3,7 +3,7 @@ import { I18nextProvider } from 'react-i18next';
 import CuadroFila from './components/CuadroFila';
 import Header from './components/Header';
 import SelectorIdioma from './components/SelectorIdioma';
-import TextoInfo from './components/TextoInfo'; // Asegúrate de importar TextoInfo correctamente
+import TextoInfo from './components/TextoInfo';
 import i18n from './components/i18n';
 
 

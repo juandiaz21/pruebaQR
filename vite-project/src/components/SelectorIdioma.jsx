@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './SelectorIdioma.css'; // Asegúrate de importar el archivo CSS
-
+import './SelectorIdioma.css';
 const SelectorIdioma = () => {
   const { i18n } = useTranslation();
 
@@ -27,6 +26,10 @@ const SelectorIdioma = () => {
         <option value="it">Italiano</option>
         <option value="xi">中国人</option>
         <option value="hi">हिंदी</option>
+        <option value="roes">Romanès</option>
+        <option value="romi">Romaní</option>
+        <option value="ta">Tagal</option>
+        <option value="ru">Ruso</option>
       </select>
     </div>
   );

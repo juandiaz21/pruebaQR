@@ -1,78 +1,71 @@
-/* Contenedor principal de las filas */
 .reminders {
   display: flex;
-  flex-direction: column; /* Asegura que las filas estén apiladas */
-  align-items: center; /* Centra todas las filas horizontalmente */
-  justify-content: center; /* Centra las filas verticalmente */
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
   padding: 20px;
   margin: 20px auto;
-  width: 100%; /* Ocupa todo el ancho disponible */
-  max-width: 1200px; /* Limita el ancho máximo para una mejor apariencia */
+  width: 100%;
+  max-width: 1200px; 
   box-sizing: border-box;
 }
 
-/* Estilo base para la fila */
 .cuadro-fila {
-  display: flex; /* Usa Flexbox para organizar los rectángulos */
-  width: 100%; /* La fila ocupa todo el ancho del contenedor */
-  margin-bottom: 20px; /* Espaciado entre las filas */
-  justify-content: center; /* Centra los rectángulos dentro de la fila */
-  gap: 15px; /* Espacio uniforme entre los rectángulos */
+  display: flex; 
+  width: 100%; 
+  margin-bottom: 20px; 
+  justify-content: center; 
+  gap: 15px;
   box-sizing: border-box;
 }
 
-/* Estilo para los rectángulos */
 .cuadro {
   display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-content: flex-start; /* Alinea el texto al principio */
-  text-align: justify; /* Justifica el texto dentro de los cuadros */
+  align-items: center; 
+  justify-content: flex-start; 
+  text-align: justify; 
   padding: 15px;
-  height: auto; /* Permite que la altura se ajuste automáticamente */
-  color: #333; /* Color del texto */
-  background-color: #f9f9f9; /* Fondo claro para mejor contraste */
-  border-radius: 8px; /* Bordes redondeados */
-  border: 1px solid #ddd; /* Borde gris suave */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-  font-family: 'Arial', sans-serif; /* Fuente moderna */
-  font-size: 18px; /* Tamaño de texto ligeramente mayor */
-  flex: 1; /* Ajusta su tamaño dinámicamente */
-  max-width: 100%; /* Evita que los cuadros excedan el ancho */
+  height: auto; 
+  color: #333; 
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  border: 1px solid #ddd; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  font-family: 'Arial', sans-serif; 
+  font-size: 18px; 
+  flex: 1; 
+  max-width: 100%; 
   box-sizing: border-box;
 }
 
-/* Estilo para el rectángulo izquierdo */
 .cuadro-left {
-  flex: 1; /* Se adapta a la pantalla */
-  max-width: 25%; /* Toma hasta el 25% del ancho disponible */
-  min-width: 120px; /* Asegura un tamaño mínimo */
-  font-weight: bold; /* Texto en negrita */
+  flex: 1;
+  max-width: 25%; 
+  min-width: 120px; 
+  font-weight: bold; 
 }
 
-/* Estilo para el rectángulo derecho */
 .cuadro-right {
-  flex: 2; /* Toma el doble de espacio que el izquierdo */
-  max-width: 70%; /* Toma hasta el 70% del ancho disponible */
-  min-width: 200px; /* Asegura un tamaño mínimo */
-  font-weight: normal; /* Texto en formato normal */
+  flex: 2; 
+  max-width: 70%; 
+  min-width: 200px; 
+  font-weight: normal; 
 }
 
-/* Responsividad para pantallas pequeñas */
 @media (max-width: 768px) {
   .cuadro-fila {
-    flex-direction: column; /* Los cuadros se apilan verticalmente */
-    gap: 10px; /* Reduce el espacio entre ellos */
+    flex-direction: column; 
+    gap: 10px; 
   }
 
   .cuadro-left, .cuadro-right {
-    max-width: 90%; /* Ocupan el 90% del ancho del contenedor */
+    max-width: 90%; 
   }
 }
 
-/* Responsividad para pantallas muy pequeñas */
 @media (max-width: 480px) {
   .cuadro {
-    font-size: 16px; /* Ajuste del tamaño de texto para pantallas pequeñas */
-    padding: 10px; /* Reduce el relleno interno */
+    font-size: 16px; 
+    padding: 10px; 
   }
 }

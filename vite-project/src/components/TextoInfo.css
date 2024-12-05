@@ -1,40 +1,36 @@
-/* Contenedor para el texto encima de los cuadros */
 .texto-encima-cuadros {
   display: flex;
-  justify-content: center; /* Centra el contenido horizontalmente */
-  align-items: center; /* Centra el contenido verticalmente */
-  width: 100%; /* Asegura que ocupe todo el ancho */
-  margin-top: -40px; /* Ajuste para mantener separación adecuada */
-  padding: 10px; /* Espaciado adicional alrededor del texto */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
-/* Estilo del texto dentro del contenedor */
 .texto-encima-cuadros p {
-  font-size: 1.4rem; /* Tamaño de texto ligeramente más grande */
-  color: #333; /* Color del texto */
-  text-align: justify; /* Justifica el texto */
-  width: 80%; /* Amplía ligeramente el ancho para mejor legibilidad */
-  max-width: 800px; /* Limita el ancho máximo en pantallas grandes */
-  margin-right: 15%; /* Elimina márgenes adicionales */
-  line-height: 1.6; /* Mejora el espaciado entre líneas para mayor claridad */
-  font-family: 'Arial', sans-serif; /* Fuente moderna */
+  font-size: 1.2rem;
+  color: #333;
+  text-align: justify;
+  width: 80%;
+  max-width: 900px;
+  margin-right: 15%;
+  line-height: 1.4;
+  font-family: 'Arial', sans-serif;
 }
 
-/* Responsividad para pantallas más pequeñas */
 @media (max-width: 768px) {
   .texto-encima-cuadros p {
-    font-size: 1.2rem; /* Reduce ligeramente el tamaño del texto */
-    width: 90%; /* Ajusta el ancho del texto para pantallas pequeñas */
-    margin-top: 200px;
+    font-size: 1.2rem;
+    width: 90%;
+    margin-top: 40px;
   }
 }
 
-/* Responsividad para pantallas muy pequeñas */
 @media (max-width: 480px) {
   .texto-encima-cuadros p {
-    font-size: 1rem; /* Texto más pequeño en dispositivos muy compactos */
-    line-height: 1.4; /* Ajusta el espaciado entre líneas */
-    margin-top: 50px;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 200px;
   }
 }

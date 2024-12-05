@@ -1,7 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-// Traducciones de ejemplo
 const resources = {
   en: {
     translation: {
@@ -83,12 +82,56 @@ const resources = {
   xi: {
     translation: {
       texto_principal: "拒绝歧视办事处 (OND) 是巴塞罗那市议会的市政服务机构， 致力于维护、保护和确保市民的人权。OND 在基于年龄、性别认同、性取向、血统、宗教、语言、 国籍、健康、残疾或社会经济地位等原因而出现歧视的情况 下，提供给予协助。",
-      texto1_1: "如果你曾遭受或正在\n 遭受任何歧视或仇恨",
+      texto1_1: "如果你曾遭受或正在\n遭受任何歧视或仇恨",
       texto1_2: "",
       texto2_1: "",
       texto2_2: "",
       texto3_1: "",
       texto3_2: "",
+    },
+  },
+  roes: {
+    translation: {
+      texto_principal: "Oficiul pentru Nediscriminare (Oficina per la No Discriminació, OND) este serviciul municipal din cadrul Primăriei Barcelona care se ocupă cu apărarea și protejarea drepturilor omului în acest oraș. OND intervine în cazurile de discriminare pe bază de vârstă, identitate de gen, orientare sexuală, origine, religie, limbă, cetățenie, sănătate, handicap sau situație socio-economică, printre altele.",
+      texto1_1: "Dacă ai fost sau ești victima unei discriminări sau a unei infracțiuni motivate de ură, la OND:",
+      texto1_2: "Îți punem la dispoziție consiliere juridică, asistență psiho-socială și acțiuni educative. Îți oferim mediere, intervenție și consiliere ca instrumente de gestionare a conflictelor. Consolidăm capacitatea de sancționare în cazurile de discriminare.",
+      texto2_1: "Dacă acționezi în sfera apărării drepturilor omului, la OND:",
+      texto2_2: "Îți oferim spații și resurse pentru a desfășura activități. Colaborăm cu persoane și entități care au legătură cu domeniul drepturilor omului și le oferim sprijin. Utilizăm litigiul strategic ca instrument de garantare a drepturilor pentru toți și pentru toate.",
+      texto3_1: "Dacă vrei să acționezi împotriva discriminării, la OND:",
+      texto3_2: "Te informăm cu privire la drepturile omului și ale cetățeanului. Organizăm programe de formare și acțiuni de sensibilizare prin intermediul centrului nostru de resurse pentru drepturile omului.",
+    },
+  },
+  romi: {
+    translation: {
+      texto_principal: "I Oficina pa-la é Na Discriminácia (OND) si o servipen keripen k-o kupatni katar e Barcelona so butĭ pa-la ćiro alav, thaj arakeltut katar e manuśenqe kaj beśes and-o foro. I OND akanal e situacía andar discriminácia k-o Ʒanes berśa, ververipen manuśenqe katar o sexo, katar sen, tumari nacia, tumari ćhib, tumare sastipen, dukhalos, si naj tumen laćhi situacia lovenqi, o biro vaj.",
+      texto1_1: "A ko tu samardo o kaj tu pendhe ko kerde tu discriminacìa o baro Ʒungalipen, and-e OND:",
+      texto1_2: "Ka gias mas tuja sas sis ka va tumenqe crìss arakatumen, te dikhas amaro gŏdipen soro thaj axcia Ʒanel. Saj te manglipen tablete, thaj kerav aviav sar te keren bugeko, te kerav alav laćho. ",
+      texto2_1: "Ko keres and-o thanipen katar arakes manusenqo alav, and-o OND:",
+      texto2_2: "Del tut tan i bucho thaj saj bugipen. Vervipen thaj amen da e manuse thaj asociacia, ka araken alav manenqo. Kerăv alav Ʒungalo sar jhek buchipo thaj o baro alav katar savorenqe.",
+      texto3_1: "Ko maque thaj keren and-e te piren discriminaticìa, and-i OND:",
+      texto3_2: "Kam vakeras tumenqe so si alav manuśenqo i o alav kator o e tanetko foro. Kerav formatcia, katar a amaro thanipen bućho sar te keren manuśenqo alav. ",
+    },
+  },
+  ta: {
+    translation: {
+      texto_principal: "Ang Oficina para la No Discriminación (Opisina Laban sa Diskriminasyon o OND) ay ang serbisyong pangmunisipyo ng Ayuntamiento de Barcelona (Munisipyo ng Barcelona) na nag-aasikaso sa pagtatanggol, pagprotekta at pagtiyak sa mga karapatang pantao sa lungsod. Kumikilos ang OND sa mga sitwasyon ng pagdiskrimina dahil sa edad, pagkakakilanlang sekswal, oryentasyong sekswal, pinagmulan, relihiyon, wika, nasyonalidad, kalusugan, pagiging may kapansanan o kalagayang pampinansyal, at iba pa.",
+      texto1_1: "Kung nakaranas o nakakaranas ka ng pagdiskrimina o krimeng udyok ng pagkapuot, sa OND:",
+      texto1_2: "Tutulungan ka namin hinggil sa payong legal, sikolohikal na tulong at pagbibigay-impormasyon. Paglalaanan ka namin ng serbisyo ng tagapamagitan at pakikipag-areglo bilang tulong para sa pagharap sa hindi pagkakasunod. May awtoridad kaming magpataw ng parusa at multa sa mga kaso ng diskriminasyon.",
+      texto2_1: "Kung isa ka sa mga nakikibahagi sa larangan ng pagtatanggol ng mga karapatang pantao, sa OND:",
+      texto2_2: "Bibigyan ka namin ng lugar at mga kinakailangan para magsagawa ng mga aktibidad. Nakikipagtulungan kami at sinusoportahan namin ang mga tao at organisasyong nakikibahagi sa mga usapin ng mga karapatang pantao. Ginagamit namin ang estratehikong paglilitis bilang instrumento sa paggarantiya sa mga karapatan para sa lahat.",
+      texto3_1: "Kung gusto mong kumilos laban sa diskriminasyon, sa OND:", 
+      texto3_2: "Bibigyan ka namin ng impormasyon tungkol sa mga karapatang pantao at sa mga karapatan ng mga mamamayan. Nag-oorganisa kami ng mga pagpapakalat ng kamalayan sa pamamagitan ng aming pangunahing mapagkukunan ng impormasyon tungkol sa mga karapatang pantao.",
+    },
+  },
+  ru: {
+    translation: {
+      texto_principal: "Офис по недискриминации (ОНД) – муниципальная служба мэрии Барселоны, которая осуществляет деятельность, направленную на защиту, охрану и гарантию прав человека в нашем городе. ОНД действует в ситуациях дискриминации в связи с возрастом, гендерной идентичностью, сексуальной ориентацией, происхождением, религией, языком, национальностью, состоянием здоровья, инвалидностью, социально-экономическим положением и прочими причинами.",
+      texto1_1: "Если вы подверглись или подвергаетесь дискриминации или стали жертвой преступления на почве ненависти, зна те, что ОНД:",
+      texto1_2: "Предоставляет юридические консультации, психосоциальную помощь и принимает просветительские меры. Предлагает такие меры по управлению конфликтами, как посредничество, урегулирование и примирительная процедура. Обеспечивает применение санкций в случаях дискриминации.",
+      texto2_1: "Если вы осуществляете деятельность в сфере защиты прав человека, ОНД:",
+      texto2_2: "Предлагает вам помещения и ресурсы для проведения мероприятий. Осуществляет сотрудничество и оказывает поддержку лицам и организациям, связанным с защитой прав человека. Использует стратегические судебные иски в качестве средства гарантии прав для всех.",
+      texto3_1: "Если вы хотите бороться с дискриминацией, знайте, что ОНД:",
+      texto3_2: "Предоставляет информацию о правах человека и правах граждан. Проводит обучение и мероприятия, направленные на повышение информированности с помощью нашего центра ресурсов по правам человека.",
     },
   },
 };
